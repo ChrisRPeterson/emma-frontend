@@ -1,6 +1,6 @@
-import { Typography } from '@mui/material';
-import { Box } from '@mui/system';
-import React from 'react';
+import { Typography } from '@mui/material'
+import { Box } from '@mui/system'
+import React from 'react'
 
 function Article() {
   return (
@@ -20,7 +20,7 @@ function Article() {
         </Typography>
       </Box>
     </div>
-  );
+  )
 }
 
-export default Article;
+export default Article

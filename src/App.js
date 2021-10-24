@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-import Typography from '@mui/material/Typography';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { Box } from '@mui/system';
-import { Container, Grid } from '@mui/material';
-import Article from './components/Article';
+import logo from './logo.svg'
+import './App.css'
+import Typography from '@mui/material/Typography'
+import { createTheme, ThemeProvider } from '@mui/material/styles'
+import { Box } from '@mui/system'
+import { Container, Grid } from '@mui/material'
+import Article from './components/Article'
 
 const theme = createTheme({
   typography: {
@@ -22,15 +22,15 @@ const theme = createTheme({
       '"Segoe UI Symbol"',
     ].join(','),
   },
-});
+})
 
 theme.typography.h1 = {
   fontFamily: '"Source Serif Pro"',
-};
+}
 
 theme.typography.h3 = {
   fontFamily: '"Source Serif Pro"',
-};
+}
 
 function App() {
   return (
@@ -68,7 +68,7 @@ function App() {
         </Container>
       </Box>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -9,8 +9,7 @@ import Article from './components/Article';
 const theme = createTheme({
   typography: {
     fontFamily: [
-      'Lora',
-      'Source Sans Pro',
+      '"Source Sans Pro"',
       '-apple-system',
       'BlinkMacSystemFont',
       '"Segoe UI"',
@@ -26,11 +25,11 @@ const theme = createTheme({
 });
 
 theme.typography.h1 = {
-  fontFamily: 'Lora',
+  fontFamily: '"Source Serif Pro"',
 };
 
 theme.typography.h3 = {
-  fontFamily: 'Lora',
+  fontFamily: '"Source Serif Pro"',
 };
 
 function App() {
@@ -46,10 +45,12 @@ function App() {
         <Container maxWidth="lg">
           <ThemeProvider theme={theme}>
             <Box sx={{ margin: '1em' }}>
-              <Typography variant="h1">Emma Mascarenas</Typography>
+              <Typography sx={{ fontWeight: 700 }} variant="h1">
+                Emma Mascarenas
+              </Typography>
             </Box>
             <Grid container>
-              <Grid item md={8}>
+              <Grid item xs={12} md={8}>
                 <Article />
                 <Article />
                 <Article />
@@ -57,7 +58,7 @@ function App() {
                 <Article />
                 <Article />
               </Grid>
-              <Grid item md={4}>
+              <Grid item xs={12} md={4}>
                 <Box sx={{ border: '1px solid white', height: '100%' }}>
                   <Typography>fdsfsdsfd</Typography>
                 </Box>

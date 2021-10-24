@@ -46,7 +46,7 @@ function App() {
         <Container maxWidth="lg">
           <ThemeProvider theme={theme}>
             <Box sx={{ margin: '1em' }}>
-              <Typography variant="h1">Emma's Website</Typography>
+              <Typography variant="h1">Emma Mascarenas</Typography>
             </Box>
             <Grid container>
               <Grid item md={8}>

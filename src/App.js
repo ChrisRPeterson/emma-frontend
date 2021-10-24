@@ -39,7 +39,7 @@ function App() {
       <Box
         sx={{
           color: 'rgb(102, 102, 102)',
-          letterSpacing: 0.5,
+          // letterSpacing: 0.5,
           lineHeight: '23.4px',
         }}
       >
